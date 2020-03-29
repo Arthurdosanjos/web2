@@ -42,9 +42,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+
     padding: 10px;
-    border:solid 1px;
+    border:solid 2px;
     border-color: black;
     background-color: white;
     font-family: Open Sans;
@@ -52,9 +56,10 @@
 
 }
 .name{
-    background-image: url('..\imagens\frenchfries.jpeg');
+    
     width: 100%;
     height:100%;
+    
 }
   
   #footer {
